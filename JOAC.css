@@ -1,0 +1,130 @@
+p {
+    color: whitesmoke;
+}
+h1 {
+    color: whitesmoke;
+}
+body {
+    max-width: 1900px;
+    height: 100%;
+    margin: 0;
+}
+.background {
+    background-color: #0A1428;
+    background-size: cover;
+}
+svg {
+    max-width: 100px;
+    min-width: 65px;
+    max-height: 100px;
+}
+
+.titre {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+#filtreBox {
+    margin-left: 13%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#valideBox {
+    display: flex;
+    align-items: center;
+}
+
+
+.valideText {
+    margin-left: 10px;
+    margin-bottom: 25px;
+    width: 48px;
+    height: 48px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.valideText:hover {
+  transform: scale(1.15); /* grossissement léger au hover */
+}
+
+.valideText.invalide {
+    width: 50px;
+    height: 50px;
+}
+
+.valideText.valide {
+    width: 50px;
+    height: 50px;
+}
+
+.valideText.invalide.active {
+  color: red;
+}
+.valideText.valide.active {
+  color: green;
+}
+
+
+#roleBox {
+    display: flex;
+}
+
+.roleText {
+    margin-right: 22px;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.roleText:hover {
+  transform: scale(1.15); /* grossissement léger au hover */
+}
+.roleText.active {
+    color: #C89B3C;
+}
+
+#champList {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.champContainer {
+  margin: 15px;
+  cursor: pointer;
+  transition:
+    width 0.3s ease,
+    height 0.3s ease,
+    margin 0.3s ease,
+    padding 0.3s ease,
+    opacity 0.3s ease,
+    transform 0.2s ease;
+  overflow: hidden;
+  will-change: height, opacity, margin, padding;
+}
+
+.champContainer:hover {
+  transform: scale(1.15);
+}
+
+.champContainer.removing {
+  opacity: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  pointer-events: none;
+}
+
