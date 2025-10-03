@@ -12,6 +12,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Ahri.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -20,6 +21,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/akali.png",
         firstRole : "top",
         secondRole : "mid",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -28,6 +30,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Akshan.png",
         firstRole : "mid",
         secondRole : "top",
+        firstRegion : "shurima",
         hiden : false,
         activeRole : false
     },
@@ -44,6 +47,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Ambessa.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -52,6 +56,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Amumu.png",
         firstRole : "jungle",
         secondRole : "supp",
+        firstRegion : "shurima",
         hiden : false,
         activeRole : false
     },
@@ -60,6 +65,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Anivia.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -74,16 +80,18 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         {
         champion : "Aphelios",
         image : "images/CHAMP LOL/Aphelios.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "targon",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Ashe",
         image : "images/CHAMP LOL/Ashe.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -92,6 +100,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Aurelion sol.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "targon",
         hiden : false,
         activeRole : false
     },
@@ -100,6 +109,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Aurora.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -108,6 +118,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Azir.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "shurima",
         hiden : false,
         activeRole : false
     },
@@ -124,6 +135,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Bel'veth.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "neant",
         hiden : false,
         activeRole : false
     },
@@ -132,6 +144,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Blitzcrank.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -148,6 +161,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Braum.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -156,14 +170,16 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Briar.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Caitlyn",
         image : "images/CHAMP LOL/Caitlyn.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "piltover",
         hiden : false,
         activeRole : false
     },
@@ -172,6 +188,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Camille.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "piltover",
         hiden : false,
         activeRole : false
     },
@@ -180,6 +197,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Cassio.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -188,6 +206,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Cho'gath.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "neant",
         hiden : false,
         activeRole : false
     },
@@ -195,7 +214,9 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         champion : "Corki",
         image : "images/CHAMP LOL/Corki.png",
         firstRole : "mid",
-        secondRole : "adc",
+        secondRole : "bot",
+        firstRegion : "bandle",
+        secondRegion : "piltover", 
         hiden : false,
         activeRole : false
     },
@@ -204,6 +225,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Darius.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -212,6 +234,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Diana.png",
         firstRole : "mid",
         secondRole : "jungle",
+        firstRegion : "targon",
         hiden : false,
         activeRole : false
     },
@@ -220,14 +243,16 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Dr Mundo.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Draven",
         image : "images/CHAMP LOL/Draven.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -236,6 +261,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Ekko.png",
         firstRole : "mid",
         secondRole : "jungle",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -244,6 +270,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Elise.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "si",
         hiden : false,
         activeRole : false
     },
@@ -258,8 +285,9 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         {
         champion : "Ezreal",
         image : "images/CHAMP LOL/Ezreal.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "mid",
+        firstRegion : "piltover",
         hiden : false,
         activeRole : false
     },
@@ -268,6 +296,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Fiddle.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "si",
         hiden : false,
         activeRole : false
     },
@@ -276,6 +305,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Fiora.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -284,6 +314,8 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Fizz.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "bandle",
+        secondRegion : "bilgewater",
         hiden : false,
         activeRole : false
     },
@@ -292,6 +324,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Galio.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -300,6 +333,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Gangplank.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "bilgewater",
         hiden : false,
         activeRole : false
     },
@@ -308,6 +342,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Garen.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -315,7 +350,9 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         champion : "Gnar",
         image : "images/CHAMP LOL/Gnar.png",
         firstRole : "top",
-        secondRole : "none",
+        secondRole : "jungle",
+        firstRegion : "bandle",
+        secondRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -324,6 +361,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Gragas.png",
         firstRole : "top",
         secondRole : "mid",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -332,6 +370,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Graves.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "bilgewater",
         hiden : false,
         activeRole : false
     },
@@ -340,6 +379,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Gwen.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "si",
         hiden : false,
         activeRole : false
     },
@@ -348,6 +388,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Hecarim.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "si",
         hiden : false,
         activeRole : false
     },
@@ -356,6 +397,8 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Heimerdinger.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "bandle",
+        secondRegion : "piltover",
         hiden : false,
         activeRole : false
     },
@@ -364,6 +407,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Hwei.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -372,6 +416,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Illaoi.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "bilgewater",
         hiden : false,
         activeRole : false
     },
@@ -380,6 +425,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Irelia.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -388,6 +434,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Ivern.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -396,6 +443,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Janna.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -404,6 +452,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Jarvan IV.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -420,22 +469,25 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Jayce.png",
         firstRole : "top",
         secondRole : "mid",
+        firstRegion : "piltover",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Jhin",
         image : "images/CHAMP LOL/Jhin.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Jinx",
         image : "images/CHAMP LOL/Jinx.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -444,22 +496,25 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/K'sante.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "shurima",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Kai'Sa",
         image : "images/CHAMP LOL/Kai'sa.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "neant",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Kalista",
         image : "images/CHAMP LOL/Kalista.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "si",
         hiden : false,
         activeRole : false
     },
@@ -468,6 +523,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Karma.png",
         firstRole : "supp",
         secondRole : "mid",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -476,6 +532,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Karthus.png",
         firstRole : "jungle",
         secondRole : "mid",
+        firstRegion : "si",
         hiden : false,
         activeRole : false
     },
@@ -484,6 +541,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Kassadin.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "neant",
         hiden : false,
         activeRole : false
     },
@@ -492,6 +550,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Katarina.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -500,6 +559,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Kayle.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -508,6 +568,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Kayn.png",
         firstRole : "jungle",
         secondRole : "top",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -516,6 +577,8 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Kennen.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "bandle",
+        secondRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -524,6 +587,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Kha zix.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "neant",
         hiden : false,
         activeRole : false
     },
@@ -540,14 +604,17 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Kled.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "bandle",
+        secondRegion : "noxus",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Kog'Maw",
         image : "images/CHAMP LOL/Kog'maw.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "mid",
+        firstRegion : "neant",
         hiden : false,
         activeRole : false
     },
@@ -556,6 +623,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Leblanc.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -564,6 +632,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Lee sin.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -572,6 +641,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Leona.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "targon",
         hiden : false,
         activeRole : false
     },
@@ -580,6 +650,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Lillia.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -588,14 +659,16 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Lissandra.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Lucian",
         image : "images/CHAMP LOL/Lucian.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -604,6 +677,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Lulu.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "bandle",
         hiden : false,
         activeRole : false
     },
@@ -612,6 +686,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Lux.png",
         firstRole : "mid",
         secondRole : "supp",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -620,6 +695,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Maître Yi.png",
         firstRole : "jungle",
         secondRole : "top",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -628,6 +704,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Malphite.png",
         firstRole : "top",
         secondRole : "mid",
+        firstRegion : "ixtal",
         hiden : false,
         activeRole : false
     },
@@ -636,6 +713,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Malzahar.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "neant",
         hiden : false,
         activeRole : false
     },
@@ -644,6 +722,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Maokai.png",
         firstRole : "top",
         secondRole : "supp",
+        firstRegion : "si",
         hiden : false,
         activeRole : false
     },
@@ -652,6 +731,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Mel.png",
         firstRole : "mid",
         secondRole : "supp",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -660,14 +740,16 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Milio.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "ixtal",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Miss Fortune",
         image : "images/CHAMP LOL/Miss Fortune.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "mid",
+        firstRegion : "bilgewater",
         hiden : false,
         activeRole : false
     },
@@ -676,6 +758,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Mordekaiseur.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -684,6 +767,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Morgana.png",
         firstRole : "mid",
         secondRole : "supp",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -692,6 +776,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Naafiri.png",
         firstRole : "mid",
         secondRole : "jungle",
+        firstRegion : "shurima",
         hiden : false,
         activeRole : false
     },
@@ -708,6 +793,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Nasus.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "shurima",
         hiden : false,
         activeRole : false
     },
@@ -716,6 +802,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Nautilus.png",
         firstRole : "top",
         secondRole : "supp",
+        firstRegion : "bilgewater",
         hiden : false,
         activeRole : false
     },
@@ -724,6 +811,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Neeko.png",
         firstRole : "mid",
         secondRole : "supp",
+        firstRegion : "ixtal",
         hiden : false,
         activeRole : false
     },
@@ -731,15 +819,17 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         champion : "Nidalee",
         image : "images/CHAMP LOL/Nidalee.png",
         firstRole : "jungle",
-        secondRole : "none",
+        secondRole : "bot",
+        firstRegion : "ixtal",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Nilah",
         image : "images/CHAMP LOL/Nilah.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "bilgewater",
         hiden : false,
         activeRole : false
     },
@@ -756,6 +846,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Nunu.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -764,6 +855,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Olaf.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -772,6 +864,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Orianna.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "piltover",
         hiden : false,
         activeRole : false
     },
@@ -780,6 +873,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Ornn.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -788,6 +882,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Panthéon.png",
         firstRole : "top",
         secondRole : "supp",
+        firstRegion : "targon",
         hiden : false,
         activeRole : false
     },
@@ -796,6 +891,8 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Poppy.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "bandle",
+        secondRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -804,6 +901,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Pyke.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "bilgewater",
         hiden : false,
         activeRole : false
     },
@@ -812,6 +910,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Qiyana.png",
         firstRole : "mid",
         secondRole : "jungle",
+        firstRegion : "ixtal",
         hiden : false,
         activeRole : false
     },
@@ -820,6 +919,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Quinn.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -828,6 +928,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Rakan.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -836,6 +937,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Rammus.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "shurima",
         hiden : false,
         activeRole : false
     },
@@ -844,6 +946,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/rek'sai.png",
         firstRole : "jungle",
         secondRole : "top",
+        firstRegion : "neant",
         hiden : false,
         activeRole : false
     },
@@ -852,6 +955,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Rell.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -860,6 +964,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Renata Glasc.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -868,6 +973,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Renekton.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "shurima",
         hiden : false,
         activeRole : false
     },
@@ -876,6 +982,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Rengar.png",
         firstRole : "jungle",
         secondRole : "top",
+        firstRegion : "ixtal",
         hiden : false,
         activeRole : false
     },
@@ -884,6 +991,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Riven.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -892,6 +1000,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Rumble.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "bandle",
         hiden : false,
         activeRole : false
     },
@@ -906,8 +1015,9 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         {
         champion : "Samira",
         image : "images/CHAMP LOL/Samira.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -916,14 +1026,16 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Sejuani.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Senna",
         image : "images/CHAMP LOL/Senna.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "supp",
+        firstRegion : "si",
         hiden : false,
         activeRole : false
     },
@@ -932,6 +1044,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Seraphine.png",
         firstRole : "supp",
         secondRole : "mid",
+        firstRegion : "piltover",
         hiden : false,
         activeRole : false
     },
@@ -940,6 +1053,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Sett.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -956,6 +1070,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Shen.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -964,6 +1079,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Shyvana.png",
         firstRole : "jungle",
         secondRole : "top",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -972,6 +1088,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Singed.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -980,14 +1097,16 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Sion.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Sivir",
         image : "images/CHAMP LOL/Sivir.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "shurima",
         hiden : false,
         activeRole : false
     },
@@ -996,13 +1115,14 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Skarner.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "ixtal",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Smolder",
         image : "images/CHAMP LOL/Smolder.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
         hiden : false,
         activeRole : false
@@ -1012,6 +1132,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Sona.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -1020,6 +1141,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Soraka.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "targon",
         hiden : false,
         activeRole : false
     },
@@ -1028,6 +1150,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Swain.png",
         firstRole : "mid",
         secondRole : "supp",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -1036,6 +1159,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Sylas.png",
         firstRole : "mid",
         secondRole : "jungle",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -1044,6 +1168,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Syndra.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -1052,6 +1177,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Tahm Kench.png",
         firstRole : "top",
         secondRole : "supp",
+        firstRegion : "bilgewater",
         hiden : false,
         activeRole : false
     },
@@ -1060,6 +1186,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Taliyah.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "shurima",
         hiden : false,
         activeRole : false
     },
@@ -1068,6 +1195,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Talon.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -1076,6 +1204,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Taric.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "targon",
         hiden : false,
         activeRole : false
     },
@@ -1084,6 +1213,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Teemo.png",
         firstRole : "top",
         secondRole : "mid",
+        firstRegion : "bandle",
         hiden : false,
         activeRole : false
     },
@@ -1092,14 +1222,16 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Thresh.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "si",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Tristana",
         image : "images/CHAMP LOL/tristana.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "bandle",
         hiden : false,
         activeRole : false
     },
@@ -1108,6 +1240,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Trundle.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -1116,6 +1249,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Trynda.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -1124,14 +1258,16 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Twisted Fate.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "bilgewater",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Twitch",
         image : "images/CHAMP LOL/Twitch.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "mid",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -1140,6 +1276,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Udyr.png",
         firstRole : "jungle",
         secondRole : "top",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -1148,22 +1285,25 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Urgot.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Varus",
         image : "images/CHAMP LOL/Varus.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Vayne",
         image : "images/CHAMP LOL/Vayne.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "jungle",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -1172,6 +1312,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Veigar.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "bandle",
         hiden : false,
         activeRole : false
     },
@@ -1180,6 +1321,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Vel'koz.png",
         firstRole : "mid",
         secondRole : "supp",
+        firstRegion : "neant",
         hiden : false,
         activeRole : false
     },
@@ -1188,6 +1330,8 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Vex.png",
         firstRole : "mid",
         secondRole : "supp",
+        firstRegion : "bandle",
+        secondRegion : "si",
         hiden : false,
         activeRole : false
     },
@@ -1196,6 +1340,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Vi.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "piltover",
         hiden : false,
         activeRole : false
     },
@@ -1204,6 +1349,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Viego.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "si",
         hiden : false,
         activeRole : false
     },
@@ -1212,6 +1358,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Viktor.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -1220,6 +1367,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Vlad.png",
         firstRole : "top",
         secondRole : "mid",
+        firstRegion : "noxus",
         hiden : false,
         activeRole : false
     },
@@ -1228,6 +1376,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Voli.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "freljord",
         hiden : false,
         activeRole : false
     },
@@ -1236,6 +1385,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Warwick.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -1244,14 +1394,16 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Wukong.png",
         firstRole : "top",
         secondRole : "jungle",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Xayah",
         image : "images/CHAMP LOL/Xayah.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -1260,6 +1412,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Xerath.png",
         firstRole : "mid",
         secondRole : "supp",
+        firstRegion : "shurima",
         hiden : false,
         activeRole : false
     },
@@ -1268,6 +1421,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Xin xhao.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "demacia",
         hiden : false,
         activeRole : false
     },
@@ -1276,6 +1430,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Yasuo.png",
         firstRole : "top",
         secondRole : "mid",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -1284,6 +1439,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Yone.png",
         firstRole : "top",
         secondRole : "mid",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -1292,14 +1448,16 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Yorick.png",
         firstRole : "top",
         secondRole : "none",
+        firstRegion : "si",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Yunara",
         image : "images/CHAMP LOL/Yunara.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
@@ -1308,6 +1466,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Yuumi.png",
         firstRole : "supp",
         secondRole : "none",
+        firstRegion : "bandle",
         hiden : false,
         activeRole : false
     },
@@ -1316,6 +1475,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Zac.png",
         firstRole : "jungle",
         secondRole : "none",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -1324,14 +1484,16 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Zed.png",
         firstRole : "mid",
         secondRole : "jungle",
+        firstRegion : "ionia",
         hiden : false,
         activeRole : false
     },
         {
         champion : "Zeri",
         image : "images/CHAMP LOL/Zeri.png",
-        firstRole : "adc",
+        firstRole : "bot",
         secondRole : "none",
+        firstRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -1339,7 +1501,9 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         champion : "Ziggs",
         image : "images/CHAMP LOL/Ziggs.png",
         firstRole : "mid",
-        secondRole : "adc",
+        secondRole : "bot",
+        firstRegion : "bandle",
+        secondRegion : "zaun",
         hiden : false,
         activeRole : false
     },
@@ -1356,6 +1520,7 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Zoé.png",
         firstRole : "mid",
         secondRole : "none",
+        firstRegion : "targon",
         hiden : false,
         activeRole : false
     },
@@ -1364,164 +1529,76 @@ let champ = JSON.parse(localStorage.getItem("champions")) || [
         image : "images/CHAMP LOL/Zyra.png",
         firstRole : "mid",
         secondRole : "supp",
+        firstRegion : "ixtal",
         hiden : false,
         activeRole : false
     },
 ];
 
 
-let conteneur = document.getElementById("champList");
-let currentRoleFilter = null;
+let currentRegionFilter = null;
 
-renderChampions(false);
+// Récupère UN élément par colonne (si tu en as un seul par rôle)
+const boxRoleTop    = document.querySelector(".boxRoleTop");
+const boxRoleJungle = document.querySelector(".boxRoleJungle");
+const boxRoleMid    = document.querySelector(".boxRoleMid");
+const boxRoleBot    = document.querySelector(".boxRoleBot");
+const boxRoleSupp   = document.querySelector(".boxRoleSupp");
 
+function setRegion(region) {
+  if (currentRegionFilter !== null && currentRegionFilter === region) return;
+  currentRegionFilter = region;
 
-function renderChampions(showHidden) {
-    conteneur.innerHTML = "";
+  // Vide les colonnes
+  [boxRoleTop, boxRoleJungle, boxRoleMid, boxRoleBot, boxRoleSupp].forEach(box => {
+    if (box) box.innerHTML = "";
+  });
 
-    champ.forEach(champion => {
-        if (currentRoleFilter === null) {
-            if (champion.hiden === showHidden) {
-                let champDiv = document.createElement("div");
-                champDiv.classList.add("champContainer");
+  champ.forEach(champion => {
+    const inRegion =
+      champion.firstRegion === region ||
+      champion.secondRegion === region; // ok si secondRegion est undefined
 
-                let champImg = document.createElement("img");
-                champImg.classList.add("champImage");
+    if (!inRegion) return;
 
-                champImg.src = champion.image; 
-                champImg.alt = champion.champion;
-
-                champImg.addEventListener("click", function () {
-                    champion.hiden = !champion.hiden;
-                    localStorage.setItem("champions", JSON.stringify(champ));
-
-                    if (champion.hiden !== showHidden) {
-
-                        champDiv.classList.add("removing");
-
-                        champDiv.addEventListener("transitionend", () => {
-                        champDiv.remove();
-                        }, { once: true });
-                    }
-                });
-
-                champDiv.appendChild(champImg);
-                conteneur.appendChild(champDiv);                
-        }
-        }
-        if (currentRoleFilter != null) {
-            if (champion.hiden === showHidden && champion.activeRole === true) {
-                let champDiv = document.createElement("div");
-                champDiv.classList.add("champContainer");
-
-                let champImg = document.createElement("img");
-                champImg.classList.add("champImage");
-
-                champImg.src = champion.image; 
-                champImg.alt = champion.champion;
-
-                champImg.addEventListener("click", function () {
-                    champion.hiden = !champion.hiden;
-                    localStorage.setItem("champions", JSON.stringify(champ));
-
-                    if (champion.hiden !== showHidden) {
-                        
-                        champDiv.classList.add("removing");
-
-                        champDiv.addEventListener("transitionend", () => {
-                        champDiv.remove();
-                        }, { once: true });
-                    }
-                });
-
-                champDiv.appendChild(champImg);
-                conteneur.appendChild(champDiv);
-            };
-        };
-    });
-}
-
-
-// Bouton valide → affiche ceux avec hiden = true
-let valideButton = document.getElementsByClassName("valide")[0];
-valideButton.addEventListener("click", function () {
-    valideButton.classList.add("active");
-    invalideButton.classList.remove("active");
-
-    renderChampions(true);
-});
-
-// Bouton invalide → affiche ceux avec hiden = false
-let invalideButton = document.getElementsByClassName("invalide")[0];
-invalideButton.addEventListener("click", function () {
-    invalideButton.classList.add("active");
-    valideButton.classList.remove("active");
-
-    renderChampions(false);
-});
-
-function setRole(role) {
-
-    if (currentRoleFilter === null || currentRoleFilter != role) {
-        currentRoleFilter = role
-        champ.forEach(champion => {
-            champion.activeRole = false;
-        });
-        champ.forEach(champion => {
-        if (champion.firstRole === role || champion.secondRole === role) {
-            champion.activeRole = true;
-        };
-    });
-    }
-    else if (currentRoleFilter === role) {
-        currentRoleFilter = null;
-        champ.forEach(champion => {
-            champion.activeRole = false;
-        });
+    // petite fabrique d'image pour éviter de réutiliser le même node
+    const makeImg = () => {
+      const img = document.createElement("img");
+      img.classList.add("champImage");
+      img.src = champion.image;
+      img.alt = champion.champion;
+      return img;
     };
+
+    const roles = new Set([champion.firstRole, champion.secondRole]);
+
+    if (roles.has("top")    && boxRoleTop)    boxRoleTop.appendChild(makeImg());
+    if (roles.has("jungle") && boxRoleJungle) boxRoleJungle.appendChild(makeImg());
+    if (roles.has("mid")    && boxRoleMid)    boxRoleMid.appendChild(makeImg());
+    if (roles.has("bot")    && boxRoleBot)    boxRoleBot.appendChild(makeImg());
+    if (roles.has("supp")   && boxRoleSupp)   boxRoleSupp.appendChild(makeImg());
+  });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const roles = {
-    top:    document.querySelector('.roleTop'),
-    jungle: document.querySelector('.roleJungle'),
-    mid:    document.querySelector('.roleMid'),
-    adc:    document.querySelector('.roleBot'),
-    supp:   document.querySelector('.roleSupp'),
+  const regions = {
+    zaun: document.querySelector('.regionZaun'),
+    bandle: document.querySelector('.regionBandle'),
+    bilgewater: document.querySelector('.regionBilgewater'),
+    demacia: document.querySelector('.regionDemacia'),
+    freljord: document.querySelector('.regionFreljord'),
+    ionia: document.querySelector('.regionIonia'),
+    noxus: document.querySelector('.regionNoxus'),
+    piltover: document.querySelector('.regionPiltover'),
+    si: document.querySelector('.regionSi'),
+    shurima: document.querySelector('.regionShurima'),
+    targon: document.querySelector('.regionTargon'),
+    neant: document.querySelector('.regionNeant'),
+    ixtal: document.querySelector('.regionIxtal'),
   };
 
-  Object.entries(roles).forEach(([role, btn]) => {
-    if (!btn) return; // sécurité si un bouton manque
-
-    btn.addEventListener('click', () => {
-      const wasActive = btn.classList.contains('active');
-
-      // désactiver tous les autres visuellement
-      Object.values(roles).forEach(b => b && b.classList.remove('active'));
-
-      if (wasActive) {
-        // si on reclique sur l'actif → aucun actif
-        setRole(null);
-        if (invalideButton.classList.contains("active")) {
-            renderChampions(false);
-        } else if (valideButton.classList.contains("active")) {
-            renderChampions(true);
-        }
-      } else {
-        // activer celui cliqué
-        btn.classList.add('active');
-        setRole(role);              // "top" | "jungle" | "mid" | "bot" | "supp"
-        
-        if (invalideButton.classList.contains("active")) {
-            renderChampions(false);
-        } else if (valideButton.classList.contains("active")) {
-            renderChampions(true);
-        }
-      }
-    });
+  Object.entries(regions).forEach(([region, btn]) => {
+    if (!btn) return;
+    btn.addEventListener('click', () => setRegion(region));
   });
 });
-
-
-
-

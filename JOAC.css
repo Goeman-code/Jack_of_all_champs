@@ -128,3 +128,6 @@ svg {
   pointer-events: none;
 }
 
+.champImage {
+  border-radius: 15px;
+}
